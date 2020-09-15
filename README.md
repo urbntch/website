@@ -41,7 +41,7 @@ It is recommended to use a local web server like [HTTP Server](https://github.co
     http-server
     ```
 
-5. Access the website in your browser [http://localhost:3000](http://localhost:3000)
+5. Access the website in your browser [http://localhost:8080](http://localhost:8080)
 
 ### Making changes
 
