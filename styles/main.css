@@ -53,3 +53,8 @@ h2.subtitle {
   font-family: var(--ut-font-mono);
   font-size: 1.6875rem;
 }
+
+.ut-big-text {
+  font-size: 24.375rem;
+  font-weight: bold;
+}
