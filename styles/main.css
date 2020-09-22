@@ -1,28 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans&display=swap');
 
 :root {
-  --main-bg-color: white;
+  --ut-white: #fff;
+  --ut-green: #2BB673;
+  --ut-dark: #002239;
   --ut-font-mono: 'IBM Plex Sans', sans-serif;
   --ut-font-sans: 'IBM Plex Mono', monospace;
   font-size: 16px;
 }
 
+body {
+  background-color: var(--ut-white);
+  color: var(--ut-dark);
+}
 
 h1, h2 {
   font-family: var(--ut-font-mono);
 }
 
 p, a {
-  font-family: var(--ut-font-sans)
+  font-family: var(--ut-font-sans);
 }
+
+/* NAVBAR */
+
+.navbar-brand .navbar-item {
+  background-color: var(--ut-white);
+}
+
+.navbar-item img {
+  max-height: 7rem;
+}
+
+.button.contact-us-button {
+  background-color: var(--ut-dark);
+}
+
+/* HEADER */
 
 h1.title {
   font-size: 4rem;
   font-weight: bold;
+  color: var(--ut-dark);
 }
 
 h2.subtitle {
-  font-size: 3rem;
+  font-size: 4rem;
+  color: var(--ut-green);
 }
 
 .ut-description {

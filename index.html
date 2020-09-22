@@ -8,17 +8,57 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="assets/logo.png" height="180">
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Services
+          </a>
+
+          <a class="navbar-item">
+            Products
+          </a>
+
+          <a class="navbar-item">
+            Initiatives
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary contact-us-button">
+                <strong>Contact us</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <header class="hero">
       <div class="hero-body">
         <div class="container">
-          <div class="columns is-vcentered">
+          <div class="columns">
             <div class="column is-5">
-              <img src="assets/logo.png" alt="urbantech logo" />
-            </div>
-            <div class="column is-7">
               <h1 class="title">
                 urbantech
               </h1>
+            </div>
+            <div class="column is-7">
               <h2 class="subtitle">
                 ECO Solutions
               </h2>
