@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans&display=swap');
 
 :root {
   --ut-white: #fff;
   --ut-green: #2BB673;
   --ut-dark: #002239;
-  --ut-font-mono: 'IBM Plex Sans', sans-serif;
-  --ut-font-sans: 'IBM Plex Mono', monospace;
+  --ut-font-mono: 'IBM Plex Mono', monospace;
+  --ut-font-sans: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -22,39 +22,118 @@ p, a {
   font-family: var(--ut-font-sans);
 }
 
+.ut-background-logo {
+  position: absolute;
+  top: 6.375rem;
+  right: 0;
+}
+
 /* NAVBAR */
+
+nav.navbar {
+  width: 84rem;
+  color: red;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--ut-dark);
+}
+
+.navbar-brand {
+  margin-left: -2.3rem;
+  margin-right: 4rem;
+}
 
 .navbar-brand .navbar-item {
   background-color: var(--ut-white);
 }
 
 .navbar-item img {
-  max-height: 7rem;
+  max-height: 9rem;
+}
+
+.navbar-item {
+  font-family: var(--ut-font-mono);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.navbar-item:last-child {
+  padding-right: 0;
+}
+
+.navbar-start {
+  width: 100%;
+  justify-content: space-between;
 }
 
 .button.contact-us-button {
   background-color: var(--ut-dark);
+  border-radius: 0;
+  font-family: var(--ut-font-mono);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.button.contact-us-button:hover {
+  background-color: var(--ut-green);
+}
+
+.button.contact-us-button:hover .contact-circle {
+  color: var(--ut-dark);
+}
+
+.contact-circle {
+  color: var(--ut-green);
+  font-size: 2rem;
+  line-height: 1rem;
+  position: relative;
+  top: 0.27rem;
 }
 
 /* HEADER */
 
 h1.title {
   font-size: 4rem;
-  font-weight: bold;
-  color: var(--ut-dark);
+  font-weight: 900;
+  color: var(--ut-green);
 }
 
 h2.subtitle {
   font-size: 4rem;
-  color: var(--ut-green);
+  color: var(--ut-dark);
+  margin-bottom: 0 !important;
+  text-align: right;
+}
+
+.subtitle-second {
+  font-size: 2.1875rem;
+  margin-bottom: 2rem;
+  text-align: right;
 }
 
 .ut-description {
   font-family: var(--ut-font-mono);
-  font-size: 1.6875rem;
+  font-size: 1.75rem;
 }
 
 .ut-big-text {
-  font-size: 24.375rem;
+  font-size: 21.875rem;
   font-weight: bold;
+  font-family: var(--ut-font-sans);
+  line-height: 28.125rem;
+
+}
+
+.arrow-navigation {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.arrow-navigation-item {
+  font-size: 1.25rem;
+  color: var(--ut-dark);
+  margin-right: 3rem;
+}
+
+.arrow-navigation-item .arrow-icon {
+  margin-right: 0.5rem;
 }
