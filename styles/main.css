@@ -9,6 +9,10 @@
   font-size: 16px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--ut-white);
   color: var(--ut-dark);
@@ -185,4 +189,34 @@ h2.section-title {
 .column-lead {
   color: var(--ut-green);
   margin-bottom: 0.5rem;
+}
+
+/* CONTACT US SECTION*/
+.column-contact-info{
+position: absolute;
+width: 34rem ;
+height: 7.5rem;
+left: 35rem;
+top: 6rem;
+font-family: var(--ut-font-mono);
+font-style: normal;
+font-weight: normal;
+font-size: 1.375rem;
+line-height: 140%;
+color: #002239;
+}
+
+.initiative-columns-wrapper{
+  display: flex;
+}
+
+.bottom-text-left{
+  margin-right: auto;
+}
+
+.contact-us-logo {
+  position: relative;
+  top: 6.375rem;
+  left: -36rem;
+  bottom: 0rem;
 }
