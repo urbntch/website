@@ -145,8 +145,7 @@ h2.subtitle {
 .arrow-navigation-item .arrow-icon {
   margin-right: 0.5rem;
 }
-
-/* SERVICES SECTION */
+/* SERVICES & PRODUCTS STYLES SECTION */
 
 h2.section-title {
   font-family: var(--ut-font-mono);
@@ -155,6 +154,23 @@ h2.section-title {
   border-bottom: 1px solid var(--ut-dark);
   margin-bottom: 2.3125rem;
 }
+
+.title-column, .content-column {
+  border-bottom: 1px solid var(--ut-dark);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content-column {
+  margin-right: 0.75rem;
+}
+
+.column-lead {
+  color: var(--ut-green);
+  margin-bottom: 0.5rem;
+}
+
+/* SERVICES SECTION */
 
 .services-image-column {
   padding-bottom: 0;
@@ -176,19 +192,69 @@ h2.section-title {
   color: var(--ut-green);
 }
 
-.title-column, .content-column {
-  border-bottom: 1px solid var(--ut-dark);
+/* PRODUCTS SECTION */
+
+.products-image-column {
+  padding-bottom: 0;
+}
+
+.products-columns-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.products-columns-wrapper .columns:nth-child(odd),
+.products-columns-wrapper .columns:nth-child(odd) h3 {
+  font-weight: 900;
+}
+
+.products-columns-wrapper .columns h3 {
+  color: var(--ut-green);
+}
+
+/* INITIATIVES SECTION */
+
+.initiatives-image-column {
+  padding-bottom: 0;
+}
+
+.initiatives-columns-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.initiatives-columns-wrapper .columns:nth-child(odd),
+.initiatives-columns-wrapper .columns:nth-child(odd) h3 {
+  font-weight: 900;
+}
+
+.initiatives-columns-wrapper .columns h3 {
+  color: var(--ut-green);
+}
+
+.column-initiatives {
+  font-family: var(--ut-font-mono);
+  font-weight: 500;
+  font-size: 2.1875rem;
+  color: var(--ut-green);
+  position: relative;
+}
+
+.content2-column {
+  border-bottom: 1px;
   padding-left: 0;
   padding-right: 0;
+  font-family: "IBM Plex Mono";
 }
 
-.content-column {
-  margin-right: 0.75rem;
-}
-
-.column-lead {
-  color: var(--ut-green);
-  margin-bottom: 0.5rem;
+p.text {
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: var(--ut-font-mono);
 }
 
 /* CONTACT US SECTION*/
