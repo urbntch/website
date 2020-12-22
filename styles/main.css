@@ -24,6 +24,7 @@ h1, h2 {
 
 p, a {
   font-family: var(--ut-font-sans);
+  color: #002239;
 }
 
 .ut-background-logo {
@@ -244,9 +245,15 @@ h2.section-title {
   line-height: 45px !important;
 }
 
+.list {
+  position: absolute; 
+  bottom: 0px; 
+  right: 0px;
+}
+
 /* CONTACT US SECTION*/
 
-.column-contact-info{
+.column-contact-info {
 position: absolute;
 top: 6rem;
 right: 15rem;
@@ -255,9 +262,20 @@ font-style: normal;
 font-weight: normal;
 font-size: 1.375rem;
 line-height: 140%;
-color: #002239;
 }
 
 .contact-us-logo {
   padding-bottom: 0;
+}
+
+.p1 {
+  position: absolute; 
+  left: 0px; 
+  top: 10px;"
+}
+
+.p2 {
+  position: absolute; 
+  right: 0px; 
+  top: 10px;
 }
