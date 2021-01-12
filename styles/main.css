@@ -251,8 +251,8 @@ h2.section-title {
 }
 
 .list {
-  position: absolute; 
-  bottom: 0px; 
+  position: absolute;
+  bottom: 0px;
   right: 0px;
 }
 
@@ -305,14 +305,6 @@ p.text {
   margin-right: auto;
 }
 
-.p1 {
-  position: absolute; 
-  left: 0px; 
-  top: 10px;"
-}
-
-.p2 {
-  position: absolute; 
-  right: 0px; 
-  top: 10px;
+.underline {
+  text-decoration: underline;
 }
