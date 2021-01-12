@@ -16,6 +16,7 @@ html{
 body {
   background-color: var(--ut-white);
   color: var(--ut-dark);
+  position: relative;
 }
 
 h1, h2 {
@@ -221,6 +222,10 @@ h2.section-title {
   padding-bottom: 0;
 }
 
+.initiative-columns-wrapper {
+  display: flex;
+}
+
 .initiatives-columns-wrapper {
   display: flex;
   flex-direction: column;
@@ -251,21 +256,53 @@ h2.section-title {
   right: 0px;
 }
 
-/* CONTACT US SECTION*/
+.column-initiatives {
+  font-family: var(--ut-font-mono);
+  font-weight: 500;
+  font-size: 2.1875rem;
+  color: var(--ut-green);
+  position: relative;
+}
 
+.content2-column {
+  border-bottom: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "IBM Plex Mono";
+}
+
+p.text {
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: var(--ut-font-mono);
+}
+
+/* CONTACT US SECTION*/
 .column-contact-info {
-position: absolute;
-top: 6rem;
-right: 15rem;
-font-family: var(--ut-font-mono);
-font-style: normal;
-font-weight: normal;
-font-size: 1.375rem;
-line-height: 140%;
+  font-family: var(--ut-font-mono);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.375rem;
+  line-height: 140%;
+  color: var(--ut-dark);
 }
 
 .contact-us-logo {
   padding-bottom: 0;
+}
+
+#contact-us {
+  min-height: 30rem;
+}
+
+.contact-us-logo {
+  position: absolute;
+  left: 0;
+  bottom: 10rem;
+}
+
+.bottom-text-left{
+  margin-right: auto;
 }
 
 .p1 {
