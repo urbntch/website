@@ -122,14 +122,14 @@ h2.subtitle {
 
 .ut-description {
   font-family: var(--ut-font-mono);
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .ut-big-text {
   font-size: 21.875rem;
   font-weight: bold;
   font-family: var(--ut-font-sans);
-  line-height: 28.125rem;
+  line-height: 21.875rem;
 }
 
 .arrow-navigation {
@@ -170,6 +170,11 @@ h2.section-title {
 .column-lead {
   color: var(--ut-green);
   margin-bottom: 0.5rem;
+}
+
+.column-lead a {
+  color: var(--ut-green);
+  text-decoration: underline;
 }
 
 /* SERVICES SECTION */
