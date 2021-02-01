@@ -229,6 +229,99 @@ filter: drop-shadow(0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
 border-radius: 2.375rem;
 }
 
+/* ARTICLE STRUCTURE */
+
+.title-logo {
+  height: 12rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-title {
+  font-weight: 800;
+  font-size: 2.25rem;
+  font-family: var(--ut-font-sans);
+  color: #2BB673;
+  text-decoration-line: underline;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.hashtags {
+  font-weight: 800;
+  font-size: 1.25rem;
+  font-family: var(--ut-font-sans);
+  color: #2BB673;
+  font-style: italic;
+  margin-bottom: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.article-text {
+  font-weight: 800;
+  font-size: 1.25rem;
+  font-family: var(--ut-font-sans);
+  color: #2BB673;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.article-real-img {
+  margin-top: 2rem;
+  height: 37rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-info {
+  font-weight: 800;
+  font-size: 1.25rem;
+  font-family: var(--ut-font-sans);
+  color: #2BB673;
+  font-style: italic;
+  margin-bottom: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.article-list {
+  font-weight: 800;
+  font-size: 1.25rem;
+  font-family: var(--ut-font-sans);
+  color: #2BB673;
+  list-style-type: circle;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+  margin-right: 6rem;
+}
+
+.references {
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: var(--ut-font-sans);
+  color: #2BB673;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.references-list {
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: var(--ut-font-sans);
+  color: #2BB673;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  list-style-type: none;
+  margin: 0;
+}
+
 /* PRODUCTS SECTION */
 
 .products-image-column {
