@@ -29,16 +29,16 @@ It is recommended to use a local web server like [HTTP Server](https://github.co
     nvm install node
     ```
 
-3. Install http-server
+3. Install Ruby (not covered here) and install Bundle
 
     ```shell
-    npm i -g http-server
+    bundle install
     ```
 
 4. Start the http server in the root directory for this project
 
     ```shell
-    http-server
+    bundle exec jekyll serve -lo
     ```
 
 5. Access the website in your browser [http://localhost:8080](http://localhost:8080)
