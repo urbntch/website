@@ -206,7 +206,7 @@ h2.section-title {
 
 .article-head {
   font-weight: 800;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-family: var(--ut-font-sans);
   color: var(--ut-green);
   text-decoration-line: underline;
@@ -214,6 +214,7 @@ h2.section-title {
 }
 
 .article-lead {
+  font-size: 1.25rem;
   width: 40rem;
   font-weight: bold;
   display: flex;
@@ -224,7 +225,7 @@ width: 20.2rem;
 height: 10.5rem;
 display: flex;
 align-items: center;
-margin-left: 5rem;
+margin-left: 14rem;
 box-sizing: border-box;
 filter: drop-shadow(0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
 border-radius: 2.375rem;
@@ -257,7 +258,7 @@ border-radius: 2.375rem;
   font-style: normal;
   font-weight: bold;
   font-size: 1.25rem;
-  line-height: 160%;
+  line-height: 180%;
   text-decoration-line: underline;
   color: var(--ut-green);
 }
@@ -274,6 +275,7 @@ border-radius: 2.375rem;
 
 .hashtag-line {
   border-top: 1px solid black;
+  margin-right: 5rem;
 }
 
 .article-text {
@@ -281,8 +283,13 @@ border-radius: 2.375rem;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25rem;
-  line-height: 160%;
+  line-height: 180%;
   color: black;
+  padding-right: 5rem;
+}
+
+.article-image {
+  padding-right: 5rem;
 }
 
 .img-info {
@@ -290,7 +297,7 @@ border-radius: 2.375rem;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25rem;
-  line-height: 160%;
+  line-height: 180%;
   padding-bottom: 3.5rem;
   color: black;
 }
@@ -300,12 +307,13 @@ border-radius: 2.375rem;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25rem;
-  line-height: 160%;
+  line-height: 180%;
   padding-bottom: 3.5rem;
   color: black;
   list-style-type: disc;
   padding-left: 1.5rem;
   padding-top: 1.25rem;
+  padding-right: 5rem;
 }
 
 .references-list {
@@ -314,7 +322,8 @@ border-radius: 2.375rem;
   font-family: var(--ut-font-sans);
   color: var(--ut-green);
   list-style-type: none;
-  margin: 0;
+  margin-right: 5rem;
+  line-height: 100%;
 }
 
 /* PRODUCTS SECTION */
