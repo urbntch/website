@@ -24,7 +24,6 @@ title: Urbantech
 theme: minima
 plugins:
   - jekyll-feed
-baseurl: /website
 
 # Exclude from processing.
 # The following items will not be processed, by default.
