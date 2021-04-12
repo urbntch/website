@@ -20,8 +20,6 @@ Create a new branch with the format `<issue number>-basic_description` e.g. `3-p
 
 ### Running locally
 
-It is recommended to use a local web server like [HTTP Server](https://github.com/http-party/http-server)
-
 1. Install [Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
 2. Install Node.js and NPM
 
