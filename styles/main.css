@@ -419,10 +419,6 @@ p.text {
   color: var(--ut-dark);
 }
 
-.contact-us-logo {
-  padding-bottom: 0;
-}
-
 #contact-us {
   min-height: 30rem;
 }
@@ -431,6 +427,8 @@ p.text {
   position: absolute;
   left: 0;
   bottom: 10rem;
+  padding-bottom: 0;
+  pointer-events: none;
 }
 
 .bottom-text-left{
